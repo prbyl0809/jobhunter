@@ -1,0 +1,60 @@
+.btn-custom {
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #444444;
+    border-color: #444444;
+    color: white
+}
+
+.navbar-brand {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+}
+
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.toggle-div {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #212529;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    min-width: 100px;
+    max-width: 150px;
+    box-sizing: border-box;
+}
+
+.toggle-div.active {
+    background-color: #212529;
+    border-color: #212529;
+    color: #fff;
+}
+
+.toggle-div:not(.active) {
+    background-color: #fff;
+    border-color: #212529;
+    color: #000;
+}
+
+.toggle-div:hover {
+    background-color: #444444;
+    color: #fff;
+}
+
